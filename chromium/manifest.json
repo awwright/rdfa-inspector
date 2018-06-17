@@ -1,0 +1,18 @@
+{
+	"name": "RDFa Inspector",
+	"version": "0.0.0",
+	"description": "Show RDF data in a webpage",
+	"devtools_page": "devtools.html",
+	"manifest_version": 2,
+	"permissions": [
+		"file:///*",
+		"http://*/*",
+		"https://*/*"
+	],
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["contentScript.build.js"]
+		}
+	]
+}
