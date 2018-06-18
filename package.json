@@ -10,5 +10,8 @@
   "license": "Unlicense",
   "devDependencies": {
     "browserify": "^16.2.2"
+  },
+  "dependencies": {
+    "rdfa": "0.0.4"
   }
 }

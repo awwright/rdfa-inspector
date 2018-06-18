@@ -28,3 +28,4 @@ clean:
 	rm -f $(PRODUCTS)
 
 .PHONY: chromium test clean
+.DELETE_ON_ERROR:
